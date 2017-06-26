@@ -11,7 +11,6 @@ const CommentList = (props) => {
 }
 
 const mapStateToProps = (state) => {
-  console.log(state);
   return { comments: state.comments }
 }
 
